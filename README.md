@@ -22,17 +22,17 @@ The dataset have 5 files in ***.csv*** format. Incluce:
 ![Factroy](https://github.com/nvkhoa14/Ecommerce-Data-Pipeline-Databricks/blob/main/img/Factory.png)
 
 ### Transform data using Databricks.
-1. Bronze Layer.
+1. [Bronze Layer](https://github.com/nvkhoa14/Ecommerce-Data-Pipeline-Databricks/blob/main/databricks/Ecommerce%20Bronze%20Layer.ipynb).
 
 - Loading raw data from **landing-zone-2** to Delta lake.
 
-2. Silver Layer.
+2. [Silver Layer](https://github.com/nvkhoa14/Ecommerce-Data-Pipeline-Databricks/blob/main/databricks/Ecommerce%20Silver%20Layer.ipynb).
 
 - Format column type in all tables.
 - Change value in some columns to make it easier for read and analyze.
 - Add column to tables for futher analyse.
 
-3. Gold Layer.
+3. [Gold Layer](https://github.com/nvkhoa14/Ecommerce-Data-Pipeline-Databricks/blob/main/databricks/Ecommerce%20Gold%20Layer.ipynb).
 
 - Create One Big Table with nececsary columns from four tables.
 ![OBT](https://github.com/nvkhoa14/Ecommerce-Data-Pipeline-Databricks/blob/main/img/OBT.png)
